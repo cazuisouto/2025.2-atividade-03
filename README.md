@@ -2,7 +2,7 @@
 
 ## Preparação para atividades
 - [X] Fork desse repositório para a conta pessoal
-- [ ] criar o arquivo index.html (pode adicionar css)
+- [X] criar o arquivo index.html (pode adicionar css)
 - [ ] criar um projeto no vercel e conectar ao seu repositório local
 - [ ] criar link para atividades abaixo
   - [ ] criar link para o arquivo tabelas.html (atividade 3)
