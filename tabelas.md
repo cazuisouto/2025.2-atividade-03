@@ -141,9 +141,9 @@ td ul li {
 
 ## Instruções para Realizar a Atividade
 
-- [ ] **Crie um arquivo HTML** chamado `tabelas.html`
-- [ ] **Crie um arquivo CSS** chamado `tabelas.css`
-- [ ] **Crie a estrutura inicial do HTML 5** no arquivo `tabelas.html`
+- [X] **Crie um arquivo HTML** chamado `tabelas.html`
+- [X] **Crie um arquivo CSS** chamado `tabelas.css`
+- [X] **Crie a estrutura inicial do HTML 5** no arquivo `tabelas.html`
 - [ ] **Defina o título da página** coloque a identificação no arquivo `tabelas.html`. Lembre de atualizar também o `title`.
 - [ ] **Copie o código CSS** fornecido acima para o arquivo `tabelas.css`
 - [ ] **Abra o arquivo HTML** em seu navegador para visualizar a tabela
