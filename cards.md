@@ -288,7 +288,7 @@ Depois de implementar o card básico, tente os seguintes desafios:
 - [ ] Card contém rodapé com horários e locais
 - [ ] Design é responsivo e funciona em diferentes tamanhos de tela
 - [ ] Código está bem indentado e organizado
-- [ ] Projeto está versionado no GitHub
+- [X] Projeto está versionado no GitHub
 
 ---
 
