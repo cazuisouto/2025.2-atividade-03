@@ -9,8 +9,25 @@ body {
     background-color: #fae6c3;
     padding: 20px;
 }
-
-h1 {
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #2e1b5b;
+      color: #fae6c3;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fae6c3;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+h2 {
     text-align: center;
     color: #333;
     margin-bottom: 30px;

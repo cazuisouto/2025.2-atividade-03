@@ -47,6 +47,14 @@ body {
     .skills {
       margin-top: 20px;
     }
+    .links span {
+      background-color: #cba1c2;
+      color: #2e1b5b;
+      padding: 8px 12px;
+      margin-right: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
     .skills span {
       background-color: #cba1c2;
       color: #2e1b5b;
