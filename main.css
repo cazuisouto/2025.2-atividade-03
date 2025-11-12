@@ -14,10 +14,12 @@ body {
     }
     a{
       text-decoration: none;
+      color: inherit
     }
     header h1 {
       margin: 0;
       font-size: 1.5rem;
+      color: #fae6c3;
     }
     nav a {
       color: #fae6c3;

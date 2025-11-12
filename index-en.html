@@ -11,6 +11,7 @@
       background-color: #fae6c3;
       color: #ba1971;
     }
+    
     header {
       display: flex;
       justify-content: space-between;
@@ -22,6 +23,11 @@
     header h1 {
       margin: 0;
       font-size: 1.5rem;
+      color: #fae6c3;
+    }
+    a{
+      text-decoration: none;
+      color: inherit
     }
     nav a {
       color: #fae6c3;
@@ -51,10 +57,7 @@
       font-size: 1.1rem;
       max-width: 600px;
     }
-    .skills {
-      margin-top: 20px;
-    }
-    .skills links {
+    .links span {
       background-color: #cba1c2;
       color: #2e1b5b;
       padding: 8px 12px;
@@ -92,7 +95,7 @@
 </head>
 <body>
   <header>
-    <h1>Cazuí Souto</h1>
+    <a href="index-en.html"><h1>Cazuí Souto</h1></a>
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -112,8 +115,8 @@
   <h2>Atividade Web Design</h2>
   <p>This page was developed as part of the Web Design activity of the Systems Analysis and Development course. It presents information about me, my skills, and offers versions in different languages.</p>
   <div class="links">
-    <span>Table</span>
-    <span>Cards</span>
+    <a href="tabelas.html"><span>Table</span></a>
+    <a href="cards.html"><span>Cards</span></a>
     <span>Landing Page</span>
     <span>Replica</span>
   </div>
