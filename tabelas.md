@@ -71,7 +71,7 @@ Abaixo está um exemplo completo de como criar e estilizar a tabela para a disci
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4f4;
     padding: 20px;
 }
 

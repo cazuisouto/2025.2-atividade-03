@@ -1,0 +1,75 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fae6c3;
+      color: #ba1971;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #2e1b5b;
+      color: #fae6c3;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fae6c3;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .intro {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .intro img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 12px;
+      margin-left: 40px;
+    }
+    .intro-text h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .about p {
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+    .skills {
+      margin-top: 20px;
+    }
+    .skills span {
+      background-color: #cba1c2;
+      color: #2e1b5b;
+      padding: 8px 12px;
+      margin-right: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .versions {
+      margin-top: 40px;
+    }
+    .versions button {
+      background-color: #2e1b5b;
+      color: #fae6c3;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .versions img {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
