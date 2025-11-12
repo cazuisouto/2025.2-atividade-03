@@ -5,133 +5,174 @@
 }
 
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: #fae6c3;
     line-height: 1.6;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2e1b5b;
+}
 
-.container {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fae6c3;
+}
+header h1:hover {
+    transform: scale(1.05);
+    color: #cba1c2;
+}
+h2{
+    text-align: center;
+    color: #2e1b5b;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+
+.cards-container {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: left;
 }
 
-.container h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
-    font-size: 2.5em;
-}
-
-/* Estilo do Card */
+/* Card base */
 .card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    width: 340px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Header do Card */
+/* Cabeçalho do card */
 .card-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #2e1b5b, #ba1971);
+    color: #fae6c3;
     padding: 20px;
     text-align: center;
 }
 
 .card-header h2 {
-    font-size: 2em;
+    color: #fae6c3;
+    font-size: 1.8em;
     margin-bottom: 10px;
 }
 
 .card-header .professores {
-    font-size: 1.1em;
+    font-size: 1em;
     font-style: italic;
-    opacity: 0.9;
+    color: #cba1c2;
 }
 
-/* Conteúdo do Card */
+/* Conteúdo do card */
 .card-content {
     padding: 25px;
 }
 
 .card-content h3 {
-    color: #667eea;
+    color: #2e1b5b;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .card-content p {
-    color: #555;
+    color: #ba1971;
     margin-bottom: 15px;
 }
 
+/* Listas dentro do conteúdo */
 .card-content ul {
     list-style: none;
     padding-left: 0;
 }
 
 .card-content ul li {
-    background-color: #f0f0f0;
+    background-color: #f7f0e3;
     padding: 8px 12px;
     margin-bottom: 8px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #2e1b5b;
     border-radius: 4px;
+    color: #ba1971
+    
 }
 
+/* Estilo especial para tecnologias */
 .tecnologias li {
     display: inline-block;
-    background-color: #667eea;
-    color: white;
+    background-color: #2e1b5b;
+    color: #fae6c3;
     padding: 6px 15px;
     margin: 5px;
     border-radius: 20px;
-    border-left: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
     font-size: 0.9em;
 }
-
-/* Rodapé do Card */
-.card-footer {
-    background-color: #f9f9f9;
+.card-bottom {
+    background-color: #f9f4ee;
     padding: 20px;
-    border-top: 2px solid #e0e0e0;
+    border-top: 2px solid #cba1c2;
 }
 
-.card-footer h3 {
-    color: #333;
+.card-bottom h3 {
+    color: #2e1b5b;
     margin-bottom: 10px;
     font-size: 1.2em;
 }
 
-.card-footer p {
-    color: #666;
+.card-bottom p {
+    color: #ba1971;
     margin-bottom: 8px;
 }
 
-.card-footer strong {
-    color: #667eea;
+.card-bottom strong {
+    color: #2e1b5b;
 }
 
 /* Responsividade */
+@media (max-width: 1024px) {
+   .card {
+        width: 45%;
+    }
+}
+
 @media (max-width: 768px) {
-    .container h1 {
+    header h1 {
         font-size: 2em;
     }
-    
-    .card-header h2 {
-        font-size: 1.5em;
+
+    h2 {
+        font-size: 1.6em;
     }
-    
+
+    .card {
+        width: 100%;
+    }
+
     .tecnologias li {
         display: block;
-        margin: 5px 0;
+        text-align: center;
+        margin: 5px auto;
     }
 }

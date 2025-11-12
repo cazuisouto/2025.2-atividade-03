@@ -5,10 +5,12 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
     background-color: #fae6c3;
-    padding: 20px;
+    line-height: 1.6;
 }
+
 header {
       display: flex;
       justify-content: space-between;
@@ -17,16 +19,21 @@ header {
       background-color: #2e1b5b;
       color: #fae6c3;
     }
-    header h1 {
-      margin: 0;
-      font-size: 1.5rem;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color:#fae6c3
     }
-    nav a {
-      color: #fae6c3;
-      text-decoration: none;
-      margin-left: 20px;
-      font-weight: bold;
-    }
+nav a {
+    color: #fae6c3;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
 h2 {
     text-align: center;
     color: #333;
