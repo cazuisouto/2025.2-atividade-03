@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cazuí Souto | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fae6c3;
+      color: #ba1971;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #2e1b5b;
+      color: #fae6c3;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fae6c3;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .intro {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .intro img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 12px;
+      margin-left: 40px;
+    }
+    .intro-text h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .about p {
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+    .skills {
+      margin-top: 20px;
+    }
+    .skills span {
+      background-color: #cba1c2;
+      color: #2e1b5b;
+      padding: 8px 12px;
+      margin-right: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .versions {
+      margin-top: 40px;
+    }
+    .versions button {
+      background-color: #2e1b5b;
+      color: #fae6c3;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .versions img {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cazuí Souto</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#versions">Versions</a>
+    </nav>
+  </header>
+
+  <section id="home" class="section intro">
+    <div class="intro-text">
+      <h2>Cazuí Souto</h2>
+      <p>Software Developer | Systems Analysis and Development Student</p>
+    </div>
+    <img src="foto.jpeg" alt="Cazuí Souto's Photo">
+  </section>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>I’m passionate about technology and software development. Ever since my first contact with programming, I discovered a love for understanding how things work behind the screens. I’m currently studying Systems Analysis and Development and have been diving deeper into areas such as software development, programming logic, and tools that are part of the tech industry's daily routine. My current skills include:</p>
+    <div class="skills">
+      <span>Python</span>
+      <span>C++</span>
+      <span>Linux</span>
+      <span>Git</span>
+    </div>
+  </section>
+
+  <section id="versions" class="section versions">
+    <h2>Versions</h2>
+    <button onclick="window.location.href='index.html'">
+      <img src="https://flagcdn.com/w40/br.png" alt="Portuguese"> Portuguese
+    </button>
+    <button onclick="window.location.href='index-en.html'">
+      <img src="https://flagcdn.com/w40/gb.png" alt="English"> English
+    </button>
+  </section>
+</body>
+</html>

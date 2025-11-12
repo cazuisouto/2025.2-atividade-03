@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fae6c3;
     padding: 20px;
 }
 
@@ -28,7 +28,7 @@ table {
 }
 
 thead {
-    background-color: #f1da73;
+    background-color: #ba1971;
     color: white;
 }
 
